@@ -21,7 +21,7 @@ h1 {font-family:impact, arial,tahoma ; color:#fe5900; font:bold 95%}
 function preview(){temp=document.tester.box.value,preWindow=open("","preWindow"," menubar=yes, scrollbars=yes"),
 preWindow.document.open(),
 preWindow.document.write(temp),preWindow.document.close()}</script>
-</head><body><center><h1>HTML And Script Code Tester</h1>
+</head><body><center><h1>PHP And HTML & JavaScript Code Tester</h1>
 <form action="test.php" target="_blank" method="POST">
 <textarea  class="textinput"   wrap="physical" name="code"></textarea><br/>
 <input class="btn1" name="submit" type="submit" />
