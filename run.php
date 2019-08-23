@@ -1,5 +1,5 @@
 <?php
-$LOGIN_INFORMATION=array('khaled'=>'khaled','admin'=>'adminpass');define('USE_USERNAME',true);define('LOGOUT_URL','/');define('TIMEOUT_MINUTES',0);define('TIMEOUT_CHECK_ACTIVITY',true);if(isset($_GET['help'])){die('Include following code into every page you would like to protect, at the very beginning (first line):<br>&lt;?php include("'.str_replace('\\','\\\\',__FILE__).'"); ?&gt;');}$timeout=(TIMEOUT_MINUTES==0?0:time()+TIMEOUT_MINUTES*60);if(isset($_GET['logout'])){setcookie("verify",'',$timeout,'/');header('Location: '.LOGOUT_URL);exit();}if(!function_exists('showLoginPasswordProtect')){function showLoginPasswordProtect($error_msg){?>
+$LOGIN_INFORMATION=array('khaled'=>'khaled','admin'=>'adminpass');define('USE_USERNAME',true);define('LOGOUT_URL','/run.php');define('TIMEOUT_MINUTES',0);define('TIMEOUT_CHECK_ACTIVITY',true);if(isset($_GET['help'])){die('Include following code into every page you would like to protect, at the very beginning (first line):<br>&lt;?php include("'.str_replace('\\','\\\\',__FILE__).'"); ?&gt;');}$timeout=(TIMEOUT_MINUTES==0?0:time()+TIMEOUT_MINUTES*60);if(isset($_GET['logout'])){setcookie("verify",'',$timeout,'/');header('Location: '.LOGOUT_URL);exit();}if(!function_exists('showLoginPasswordProtect')){function showLoginPasswordProtect($error_msg){?>
 
 <html><head><title>Please enter password to access this page</title>
 <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
@@ -44,7 +44,7 @@ preWindow.document.write(temp),preWindow.document.close()}</script>
 <textarea  class="textinput"   wrap="physical" name="code"></textarea><br/>
 <input class="btn1" name="submit" type="submit" />
 <input class="btn2" type="reset" value="Clear Text Box"></form><br/></center>
- <br/><a href="/?logout=1">Logout</a>
+ <br/><a href="?logout=1">Logout</a>
 </body></html>
 <!--
 <!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
