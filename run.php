@@ -44,7 +44,7 @@ preWindow.document.write(temp),preWindow.document.close()}</script>
 <textarea  class="textinput"   wrap="physical" name="code"></textarea><br/>
 <input class="btn1" name="submit" type="submit" />
 <input class="btn2" type="reset" value="Clear Text Box"></form><br/></center>
- <br/><a href="?logout=1">Logout</a>
+ <br/><a href="/run.php?logout=1">Logout</a>
 </body></html>
 <!--
 <!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
