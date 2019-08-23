@@ -24,7 +24,7 @@ preWindow.document.write(temp),preWindow.document.close()}</script>
 </head><body><center><h1>HTML And Script Code Tester</h1>
 <form action="test.php" target="_blank" method="POST">
 <textarea  class="textinput"   wrap="physical" name="code"></textarea><br/>
-<input class="btn1" type="button" name="submit">
+<input class="btn1" type="sumbit" name="submit" />
 <input class="btn2" type="reset" value="Clear Text Box"></form><br/></center>
 </body></html>
 <!--
