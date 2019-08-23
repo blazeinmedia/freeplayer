@@ -1,6 +1,3 @@
-<?php
-if (isset($_POST['submit'])) {$code = $_POST['code'];}
-?>
 <!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
 <title>PHP Code Tester</title>
 <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
