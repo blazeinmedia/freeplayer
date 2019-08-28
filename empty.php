@@ -5,7 +5,7 @@ preWindow.document.open(), preWindow.document.write(temp),preWindow.document.clo
 
 <center>
 <h1>PHP And HTML & JavaScript Code Tester</h1> 
-<form action="" name="tester" method="POST"> 
+<form name="tester" method="POST"> 
 <textarea rows="8" cols="70" name="code">
 ...
 </textarea><br/> 
