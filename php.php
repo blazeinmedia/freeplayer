@@ -6,9 +6,9 @@ preWindow.document.open(), preWindow.document.write(temp),preWindow.document.clo
 <h1>PHP And HTML & JavaScript Code Tester</h1> 
 <form action="" name="tester" method="POST"> 
 <textarea rows="8" cols="70" class="textinput" wrap="physical" name="code">
+ <?php
+ if (isset($_POST['submit'])) {$code = $_POST['code'];} eval("?> $code <?php "); ?> 
 </textarea><br/> 
 <input class="btn1" name="submit" type="submit" onclick="preview();" value="Test PHP&HTML Code"/>
 <input class="btn2" type="reset" value="Clear Text Box">
-<?php
- if (isset($_POST['submit'])) {$code = $_POST['code'];} eval("?> $code <?php "); ?> 
 </form></center>
