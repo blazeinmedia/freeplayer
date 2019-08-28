@@ -1,6 +1,6 @@
 <center>
 <h1>PHP And HTML & JavaScript Code Tester</h1> 
-<form action="" target="_blank" method="POST"> 
+<form action="" method="POST"> 
 <textarea class="textinput" wrap="physical" name="code">
 </textarea><br/> 
 <input class="btn1" name="submit" type="submit" value="Test PHP&HTML Code"/>
