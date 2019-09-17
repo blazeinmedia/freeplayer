@@ -19,14 +19,15 @@ foreach ($matches[1] as $key=>$value) {}
 <meta http-equiv="X-Frame-Options" content="deny">
 <title>api preg_match</title><style type="text/css">
 .jw-controls:before {text-shadow: 1px 1px 2px #000; font-size: 2vw;color:#2dff03;position: absolute;
-right: 0;bottom: 10;left: 0; z-index: 0;display: flex;
+right: 0;bottom:20;left: 0; z-index: 0;display: flex;
 flex-direction: column;  justify-content: center; align-items: center;
 pointer-events: none; font-family:Arial,Helvetica,sans-serif; font-weight: bold; text-shadow: 0 3px 3px #000;
 content: "www.flaxtv.ga"; height: 100px;}
 html,body { height:100%; width:100%; padding:0; margin:0; }
 #my-video{position:fixed; height:100%;width:100%; padding:0; margin:0;}</style>
- <script src="https://zoptv.github.io/jwplayer7/jwplayer7.js" type="text/javascript"></script>
-<script>jwplayer.key="XYS/ica6YQUMq9rC6J2E77obUFoIPLeM";</script>
+<script data-cfasync='false' src='http://jwpsrv.com/library/SakQCEfSEeOHhRIxOQfUww.js'></script>
+<!-- <script src="https://zoptv.github.io/jwplayer7/jwplayer7.js" type="text/javascript"></script> -->
+<!-- <script>jwplayer.key="XYS/ica6YQUMq9rC6J2E77obUFoIPLeM";</script> -->
 </head><body><div id="my-video"></div>
 <script type="text/javascript"> jwplayer("my-video").setup({
 file:'<?php  echo $value; ?>',
