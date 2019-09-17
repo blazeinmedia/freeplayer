@@ -18,7 +18,7 @@ foreach ($matches[1] as $key=>$value) {}
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <meta http-equiv="X-Frame-Options" content="deny">
 <title>api preg_match</title><style type="text/css">
-.jw-controls:before {text-shadow: 1px 1px 2px #000; font-size: 2vw;color:#2dff03;position: absolute;
+.jw-controls:before {text-shadow: 1px 1px 2px #000; font-size:1,5vw;color:#fefe00;position:absolute;
 right: 0;bottom:20;left: 0; z-index: 0;display: flex;
 flex-direction: column;  justify-content: center; align-items: center;
 pointer-events: none; font-family:Arial,Helvetica,sans-serif; font-weight: bold; text-shadow: 0 3px 3px #000;
