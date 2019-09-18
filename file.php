@@ -7,7 +7,7 @@ function getHTML($url,$timeout)
        curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, $timeout); // max. seconds to execute
        curl_setopt($ch, CURLOPT_FAILONERROR, 1); // stop when it encounters an error
        return @curl_exec($ch);}
-$link = '' .$_GET["src"];
+$link = 'http://kora-online.tv/' .$_GET["id"];
 $url = ($link);
 $html=getHTML($url,10);
 preg_match_all("/file: '(.*)',/m", $html, $matches);
