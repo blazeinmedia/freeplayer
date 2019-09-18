@@ -25,7 +25,7 @@ pointer-events: none; font-family:Arial,Helvetica,sans-serif; font-weight: bold;
 content: "www.flaxtv.ga"; height: 100px;}
 html,body { height:100%; width:100%; padding:0; margin:0; }
 #my-video{position:fixed; height:100%;width:100%; padding:0; margin:0;}</style>
-<script data-cfasync='false' src='http://jwpsrv.com/library/SakQCEfSEeOHhRIxOQfUww.js'></script>
+<script data-cfasync='false' src='https://jwpsrv.com/library/SakQCEfSEeOHhRIxOQfUww.js'></script>
 <!-- <script src="https://zoptv.github.io/jwplayer7/jwplayer7.js" type="text/javascript"></script> -->
 <!-- <script>jwplayer.key="XYS/ica6YQUMq9rC6J2E77obUFoIPLeM";</script> -->
 </head><body><div id="my-video"></div>
