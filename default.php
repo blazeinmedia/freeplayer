@@ -3,7 +3,7 @@
 <!DOCTYPE html><html lang="en"><head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Welcome to <?php print$host;?></title>
-<link rel="stylesheet" type="text/css" href="http://www.000webhost.com/images/index/styles.css" />
+<link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/kicktv/wikapp/gh-pages/default.css" />
 </head><body><div id="container">
 <h1>Your  website is up and running!</h1><div id="breadcrumbs">
 <p>Website <strong><a href="/"><?php print$host;?></a></strong> <br /></div>
