@@ -1,5 +1,5 @@
 <?php
-$link = "" .$_GET['src'];
+$link = $_GET['src'];
 $head = get_headers($link);
 
     header('Content-Description: File Transfer');
@@ -9,7 +9,7 @@ $head = get_headers($link);
     header('Expires: 0');
     header('Cache-Control: must-revalidate, post-check=0, pre-check=0');
     header('Pragma: public');
-    header('Content-Disposition: attachment; filename="'.basename($link).'"');
+    header('Content-Disposition: attachment; filename="'.basename($_GET['src']).'"');
     $stream = fopen('php://output', 'w');
 
     $ch = curl_init($link);
