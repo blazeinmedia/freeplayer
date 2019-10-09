@@ -1,5 +1,5 @@
 <?php
-header('Content-type: application/vnd.apple.mpegurl');
+header('Content-type: application/x-mpegURL');
 
 #EXTM3U
 #EXT-X-VERSION:3
