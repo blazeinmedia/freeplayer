@@ -1,6 +1,7 @@
 <?php
 // You can used any file extension to output the file for download
-$file = $_GET['src'];
+$id = "" .$_GET['id'];
+$file = "https://freeplayer.herokuapp.com/mediafire.php?id=".$id;
 
 if (file_exists($file)) {
     header('Content-Description: File Transfer');
