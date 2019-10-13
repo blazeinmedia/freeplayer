@@ -3,7 +3,6 @@
 $id = "" .$_GET['id'];
 $file = "https://freeplayer.herokuapp.com/mediafire.php?id=".$id;
 
-if (file_exists($file)) {
     header('Content-Description: File Transfer');
     header('Content-Type: application/octet-stream');
     header('Content-Disposition: attachment; filename="'.basename($file).'"');
@@ -13,5 +12,4 @@ if (file_exists($file)) {
     header('Content-Length: ' . filesize($file));
     readfile($file);
     exit;
-}
 ?>
