@@ -5,6 +5,7 @@ $link = file_get_contents($url);
 $start = explode('href="https://download',$link);
 $end = explode('">',$start[1]);
 $file = "https://download".$end[0]; 
-header('Content-type: video/mp4,audio/mp3');
+header('Content-type: video/mp4');
+header('Content-type: audio/mp3');
 readfile($file);
 ?>
