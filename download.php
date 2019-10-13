@@ -1,6 +1,5 @@
 <?php
-$id = "" .$_GET['id'];
-$file = "https://freeplayer.herokuapp.com/mediafire.php?id=".$id;
+$file = "" .$_GET['src'];
 header('Content-Type: application/octet-stream');
 readfile($file);
 exit;
