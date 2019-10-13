@@ -17,10 +17,8 @@ if (file_exists($file)) {
 
 
 /**
-<?php
 header('Content-type: video/mp4');
 $file = $_GET['src'];
 readfile($file);
 exit;
-?>
 */
