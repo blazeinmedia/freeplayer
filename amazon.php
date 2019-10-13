@@ -6,6 +6,6 @@ $nodo= $obj->nodeInfo->id;
 $json = @file_get_contents("https://www.amazon.com/drive/v1/nodes/".$nodo."/children?resourceVersion=V2&tempLink=true&shareId=".$id);
 $obj = json_decode($json);
 $link = $obj->data[0]->tempLink;
-header('Content-type: video/mp4');
+header('Content-Type: application/octet-stream');
 readfile($link);
 ?>
