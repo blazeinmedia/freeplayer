@@ -1,5 +1,4 @@
 <?php
-header('Content-type: video/mp4');
 function getHTML($url,$timeout)
 {$ch = curl_init($url); // initialize curl with given url
 curl_setopt($ch, CURLOPT_USERAGENT, $_SERVER["HTTP_USER_AGENT"]); // set  useragent
@@ -15,5 +14,6 @@ preg_match_all('/sd_src:"(.*?)",hd_tag/m', $html, $matches);
 foreach ($matches[1] as $key=>$sd) { }
 preg_match_all('/hd_src:"(.*?)",sd_src/m', $html, $matches);
 foreach ($matches[1] as $key=>$hd) { }
+header('Content-Type: application/octet-stream');
 if($hd){readfile($hd);} else {readfile($sd);}
 ?>
