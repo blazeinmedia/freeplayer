@@ -1,7 +1,7 @@
 <?php
 session_start();
 if (isset($_GET["video"]) && isset($_SESSION[$_GET["video"]])) {
-header('Content-Type: application/octet-stream');
+header('Content-Type: application/x-mpegURL');
 $file = $_SESSION[$_GET["video"]]; //Get the filename
 readfile($file); //Proxy
 die();       
