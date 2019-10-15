@@ -8,7 +8,7 @@ die();
 }
 session_start();
 $sid = session_id();
-$path = "http://freeplayer.herokuapp.com/2m.m3u8";
+$path = "2m.m3u8";
 $hash = md5($path.$sid); //You need to use proper encryption. This is not secure at all.
 $_SESSION[$hash] = $path;
 ?>
