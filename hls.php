@@ -16,5 +16,5 @@ $_SESSION[$hash] = $path;
 <title>encrypt url video with php hash</title>
 </head><body><center> <h2> encrypt url video with php hash</h2><br>
 <video width="704" height="404" controls>
-<source src="encrypt.php?video=<?= $hash;?>" type="video/mp4">
+<source src="encrypt.php?video=<?= $hash;?>" type="application/x-morgUE">
 </video></center></body></html>
