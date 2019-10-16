@@ -1,0 +1,16 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-TARGETDURATION:11
+#EXT-X-MEDIA-SEQUENCE:12640773
+#EXTINF:10.0000,
+http://livecdnh2.tvanywhere.ae/hls/mbc3/20190221T021754-03-12640773.ts
+#EXTINF:10.0000,
+http://livecdnh2.tvanywhere.ae/hls/mbc3/20190221T021754-03-12640774.ts
+#EXTINF:10.0000,
+http://livecdnh2.tvanywhere.ae/hls/mbc3/20190221T021754-03-12640775.ts
+#EXTINF:10.0000,
+http://livecdnh2.tvanywhere.ae/hls/mbc3/20190221T021754-03-12640776.ts
+#EXTINF:10.0000,
+http://livecdnh2.tvanywhere.ae/hls/mbc3/20190221T021754-03-12640777.ts
+#EXTINF:10.0000,
+http://livecdnh2.tvanywhere.ae/hls/mbc3/20190221T021754-03-12640778.ts
