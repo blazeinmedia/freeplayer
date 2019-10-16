@@ -3,7 +3,7 @@ session_start();
 if (isset($_GET["video"]) && isset($_SESSION[$_GET["video"]])) {
 header('Content-Type: video/MPT2');
 $file = $_SESSION[$_GET["video"]]; //Get the filename
-readfile($file); //Proxy
+@readfile($file); //Proxy
 die();       
 }
 session_start();
