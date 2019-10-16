@@ -1,7 +1,7 @@
 <?php
 session_start();
 $sid = session_id();
-$path = 'm3u8.phoning;
+$path = 'm3u8.php;
 $hash = md5($path.$sid); //You need to use proper encryption. This is not secure at all.
 $_SESSION[$hash] = $path;
 ?>
