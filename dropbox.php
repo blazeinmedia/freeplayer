@@ -17,7 +17,7 @@ $path = $dropbox;
 //$hash = md5($path.$sid); //You need to use proper encryption. This is not secure at all.
 $token = sha1(uniqid(time(), true));
 $_SESSION[$token] = $path;
-$url = "https://freeplayer.herokuapp.com/dropbox.php?token=".$token."/".$title;
+$url = "https://freeplayer.herokuapp.com/dropbox.php?token=".$token;
 header('Location: ' . $url);
 //echo '"url:""'. $url .'";';
 ?>
