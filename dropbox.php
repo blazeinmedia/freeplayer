@@ -18,5 +18,6 @@ $path = $dropbox;
 $token = sha1(uniqid(time(), true));
 $_SESSION[$token] = $path;
 $url = "https://freeplayer.herokuapp.com/dropbox.php?token=".$token;
-header('Location: ' . $url);
+//header('Location: ' . $url);
+echo '"url:""'. $url .'";';
 ?>
