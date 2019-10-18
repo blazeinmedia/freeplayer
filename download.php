@@ -6,11 +6,8 @@ header('Content-Type: application/octet-stream');
 readfile($file);}
 ?>
 
-/*
-<?php
-$file = $_GET['src'];
-header('Content-Type: application/octet-stream');
-readfile($file);
-echo "test tst ";
-?>
-/**
+//$file = $_GET['src'];
+//header('Content-Type: application/octet-stream');
+//readfile($file);
+
+
