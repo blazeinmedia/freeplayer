@@ -68,7 +68,7 @@ if(isset($_POST["submit"])){
 echo $statusMsg;
 ?>
 
-<form action="upload.php" method="post" enctype="multipart/form-data">
+<form  method="post" enctype="multipart/form-data">
     Select Image File to Upload:
     <input type="file" name="file">
     <input type="submit" name="submit" value="Upload">
