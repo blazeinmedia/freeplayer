@@ -1,5 +1,5 @@
 <?php
 $file = $_GET['src'];
-header('Content-Type: application/image/jpg');
+header('Content-Type: image/jpeg');
 @readfile($file);
 ?>
