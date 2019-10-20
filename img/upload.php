@@ -17,4 +17,5 @@ imagecopy($im, $stamp, imagesx($im) - $sx - $marge_right, imagesy($im) - $sy - $
 header('Content-type: image/png');
 imagepng($im);
 imagedestroy($im);
+readfile($im);
 ?>
