@@ -1,6 +1,6 @@
 <?php 
 // Path configuration 
-$targetDir = ""; 
+$targetDir = "up"; 
 $watermarkImagePath = 'khaledtv.png'; 
  
 $statusMsg = ''; 
