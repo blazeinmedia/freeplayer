@@ -1,7 +1,7 @@
 <?php 
 // Path configuration 
 $targetDir = "up/"; 
-$watermarkImagePath = 'khaledtv.png'; 
+$watermarkImagePath = 'http://freeplayer.herokuapp.com/img/khaledtv.png'; 
  
 $statusMsg = ''; 
 if(isset($_POST["submit"])){ 
