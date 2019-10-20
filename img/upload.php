@@ -1,7 +1,7 @@
 <?php
 // Load the stamp and the photo to apply the watermark to
 $stamp = imagecreatefrompng('khaledtv.png');
-$im = imagecreatefromjpeg('Success-Kid.jpg');
+$im = imagecreatefromjpeg('11.jpg');
 
 // Set the margins for the stamp and get the height/width of the stamp image
 $marge_right = 10;
