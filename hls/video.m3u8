@@ -5,9 +5,9 @@
 #EXT-X-PLAYLIST-TYPE:VOD
 #EXT-X-TARGETDURATION:5
 #EXTINF:5,
-http://www.drivetv.ga/test/hls/0.ts?ab=1
+0.ts?ab=1
 #EXTINF:5,
-http://www.drivetv.ga/test/hls/1.ts?ab=1
+1.ts?ab=1
 #EXTINF:4,
-http://www.drivetv.ga/test/hls/2.ts?ab=1
+2.ts?ab=1
 #EXT-X-ENDLIST
