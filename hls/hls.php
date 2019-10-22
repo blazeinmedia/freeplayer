@@ -8,4 +8,6 @@
 controls autoplay preload="auto" width="714" height="402" data-setup='{}'></video></center>
 <script>const player = videojs('video');  player.src({
 src: 'hls.php?video=<?php echo $hash;?>',
-type: 'application/x-mpegURL'  }); </script></body></html>
+type: 'application/x-mpegURL'  }); </script><br><br>
+<a href="http://freeplayer.herokuapp.com/hls/embed.html?src=hls.php?video=<?php echo $hash;?>"> link hls token </a>
+</body></html>
