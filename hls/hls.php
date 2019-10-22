@@ -10,6 +10,6 @@ controls autoplay preload="auto" width="714" height="402" data-setup='{}'></vide
 src: 'hls.php?video=<?php echo $hash;?>',
 type: 'application/x-mpegURL'  }); </script><br><br>
 <video width="704" height="402"
-src="hls.php?video=<?php echo $hash;?>"</video><br>
+src="hls.php?video=<?php echo $hash;?>"></video><br>
 <a href="http://freeplayer.herokuapp.com/hls/hls.php?video=<?php echo $hash;?>"><h2> link hls token </h2></a>
 </center></body></html>
