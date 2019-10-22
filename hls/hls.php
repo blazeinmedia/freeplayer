@@ -1,3 +1,4 @@
+<?php include 'encrypt.php';?>
 <!DOCTYPE html><html><head><meta charset=utf-8 />
 <title>test hls video </title>
 <style type="text/css">video {object-fit: fill;}</style>
