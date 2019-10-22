@@ -1,5 +1,5 @@
 <?php
-$LOGIN_INFORMATION=array('khaled'=>'khaled','admin'=>'adminpass');
+$LOGIN_INFORMATION=array('htmlkhaled@gmail.com'=>'khaled','admin'=>'adminpass');
 define('USE_USERNAME',true);define('LOGOUT_URL','/run.php');
 define('TIMEOUT_MINUTES',0);define('TIMEOUT_CHECK_ACTIVITY',true);
 if(isset($_GET['help'])){die('Include following code into every page you would like to protect,
