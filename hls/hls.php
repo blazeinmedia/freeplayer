@@ -9,6 +9,10 @@ controls autoplay preload="auto" width="714" height="402" data-setup='{}'></vide
 <script>const player = videojs('video');  player.src({
 src: 'hls.php?video=<?php echo $hash;?>',
 type: 'application/x-mpegURL'  }); </script><br><br>
-<video controls width="704" height="402" src="hls.php?video=<?php echo $hash;?>" type="video/mp4"></video><br>
-<a href="http://freeplayer.herokuapp.com/hls/hls.php?video=<?php echo $hash;?>"><h2> link hls token </h2></a>
-</center></body></html>
+<script src='https://cdn.jsdelivr.net/clappr/latest/clappr.min.js' type='text/javascript'></script>
+<script src='https://cdn.jsdelivr.net/clappr.level-selector/latest/level-selector.min.js' type='text/javascript'></script>
+<div id="player"></div><script>var link= "http://livecdnh2.tvanywhere.ae/hls/mbc3/03.m3u8";
+var player = new Clappr.Player({source:link,poster: "http://www.jumptv.ml/img/bein3.jpg",
+autoPlay:true,width:"714",height:"402",parentId: "#player"});</script><br>
+<a href="http://freeplayer.herokuapp.com/hls/hls.php?video=<?php echo $hash;?>">
+<h2> link hls token </h2></a></center></body></html>
