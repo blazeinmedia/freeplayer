@@ -5,6 +5,9 @@ define('TIMEOUT_MINUTES',0);define('TIMEOUT_CHECK_ACTIVITY',true);
 if(isset($_GET['help'])){die('Include following code into every page you would like to protect,
 at the very beginning (first line):<br>&lt;?php include("'.str_replace('\\','\\\\',__FILE__).'"); ?&gt;');}$timeout=(TIMEOUT_MINUTES==0?0:time()+TIMEOUT_MINUTES*60);if(isset($_GET['logout'])){setcookie("verify",'',$timeout,'/');header('Location: '.LOGOUT_URL);exit();}if(!function_exists('showLoginPasswordProtect')){function showLoginPasswordProtect($error_msg){?>
 <html><head><title>Please enter password to access this page</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
 <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
 <META HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE">
 </head><body><style>input { border: 1px solid black; }</style>
