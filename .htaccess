@@ -4,13 +4,6 @@ DirectoryIndex index.php index.html
 #error 404
 ErrorDocument 404 /404.html
 
-#Error 404 for image files 
-RewriteEngine On
-RewriteCond %{REQUEST_URI} \.(jpg|jpeg|gif|png|ico)$ [NC]
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule .*$ /img/khaledtv.png [L]
-
 #remove html file extension
 RewriteEngine on
 RewriteCond %{THE_REQUEST} /([^.]+)\.html [NC]
