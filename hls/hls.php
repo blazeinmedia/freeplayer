@@ -9,7 +9,7 @@
 </head><body><center>
 <div id="player"></div><script>
 var player = new Clappr.Player({source:"hls.php?video=<?php echo $hash;?>",
-poster: "http://www.jumptv.ml/img/bein3.jpg",autoPlay:true,width:"714",height:"402",parentId: "#player"});
+poster: "https://jumptv.github.io//img/bein3.jpg",autoPlay:true,width:"714",height:"402",parentId: "#player"});
 </script><br><br>
 <video id="video" class="video-js vjs-default-skin vjs-big-play-centered vjs-controls-enabled" poster=""
 controls autoplay preload="auto" width="714" height="402" data-setup='{}'></video>
