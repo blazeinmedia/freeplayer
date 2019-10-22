@@ -46,7 +46,7 @@ function preview(){temp=document.tester.box.value,preWindow=open("","preWindow",
 preWindow.document.open(),
 preWindow.document.write(temp),preWindow.document.close()}</script>
 </head><body><center><h1>PHP And HTML & JavaScript Code Tester</h1>
-<form action="test.php" target="_blank" method="POST">
+<form action="run.php" target="_blank" method="POST">
 <textarea  class="textinput"   wrap="physical" name="code"></textarea><br/>
 <input class="btn1" name="submit" type="submit" value="Test PHP&HTML Code"/>
 <input class="btn2" type="reset" value="Clear Text Box"></form><br/></center>
