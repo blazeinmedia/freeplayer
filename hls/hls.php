@@ -12,7 +12,7 @@ type: 'application/x-mpegURL'  }); </script><br><br>
 <script src='https://cdn.jsdelivr.net/clappr/latest/clappr.min.js' type='text/javascript'></script>
 <script src='https://cdn.jsdelivr.net/clappr.level-selector/latest/level-selector.min.js' type='text/javascript'></script>
 <div id="player"></div><script>
-var player = new Clappr.Player({source:"<?php echo $hash;?>",
+var player = new Clappr.Player({source:"hls.php?video=<?php echo $hash;?>",
 poster: "http://www.jumptv.ml/img/bein3.jpg",autoPlay:true,width:"714",height:"402",parentId: "#player"});
 </script><br>
 <a href="http://freeplayer.herokuapp.com/hls/hls.php?video=<?php echo $hash;?>">
