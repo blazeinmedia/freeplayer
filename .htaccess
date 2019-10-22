@@ -4,6 +4,11 @@ DirectoryIndex index.php index.html
 #error 404
 ErrorDocument 404 /404.html
 
+#Error 404 for image files 
+RewriteEngine on
+RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI}!-f
+RewriteRule \.(gif¦jpe?g¦png¦bmp) https://dl.dropboxusercontent.com/s/6sexs3m5whmqbq7/storm.jpg [NC,L]
+
 #remove html file extension
 RewriteEngine on
 RewriteCond %{THE_REQUEST} /([^.]+)\.html [NC]
